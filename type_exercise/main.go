@@ -7,7 +7,7 @@ func main() {
 	wheels := 4
 	rating := 5.6
 	name := "Bill"
-	cool_or_not := true
+	coolOrNot := true
 
 	fmt.Printf("%T\n", wheels)
 	fmt.Printf("%T\n", rating)
