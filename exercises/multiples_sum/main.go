@@ -7,17 +7,17 @@ import (
 
 func main() {
 
-	for i := 1.0; i <= 100; i++ {
+	sum := 0.0
 
-		if math.Mod(i, 3) == 0 && math.Mod(i, 5) == 0 {
-			fmt.Println("FizzBuzz")
-		} else if math.Mod(i, 3) == 0 {
-			fmt.Println("Fizz")
+	for i := 0.0; i < 1000; i++ {
+
+		if math.Mod(i, 3) == 0 {
+			sum += i
 		} else if math.Mod(i, 5) == 0 {
-			fmt.Println("Buzz")
-		} else {
-			fmt.Println(i)
+			sum += i
 		}
 
 	}
+
+	fmt.Println(sum)
 }
