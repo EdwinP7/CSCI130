@@ -6,12 +6,16 @@
 </head>
 
 <body>
-
+{{if .Female}}
 	{{if .Rural}}
 	<h1>Hey there cowgirl!</h1>
 	{{else}}
 	<h2>Hey there city girl!</h2>
 	{{end}}
+{{else}}
+    <h2>Hey there cowboy!</h2>
+{{end}}
+
 </body>
 
 </html>

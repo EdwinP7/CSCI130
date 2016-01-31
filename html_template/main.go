@@ -16,6 +16,9 @@ type check struct{
 	Rural bool
 }
 
+var Female bool
+
+
 func main() {
 	p1 := check{
 		person: person{
@@ -24,6 +27,7 @@ func main() {
 		},
 		Rural: true,
 	}
+	Female = true
 
 	tpl, err := template.ParseFiles("tpl.gohtml")
 	if err != nil {
