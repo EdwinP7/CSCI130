@@ -27,6 +27,7 @@ func main() {
 		},
 		Rural: true,
 	}
+
 	Female = true
 
 	tpl, err := template.ParseFiles("tpl.gohtml")
